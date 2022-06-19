@@ -56,40 +56,40 @@
 //  }
 
 
-// <--------------------------------------------4th QUESTION-------------------------------------------->
+// <--------------------------------------------3RD QUESTION-------------------------------------------->
 
 
-// function even_digits(num) {
-//     let ctr = 0;
-//     while (num) {
-//       ctr += num % 2 === 0;
-//       num = Math.floor(num / 10);
-//     }
-//     return ctr;
-//   }
+function even_digits(num) {
+    let ctr = 0;
+    while (num) {
+      ctr += num % 2 === 0;
+      num = Math.floor(num / 10);
+    }
+    return ctr;
+  }
   
-//   console.log(even_digits(123));
-//   console.log(even_digits(1020));
-//   console.log(even_digits(102));
+  console.log(even_digits(123));
+  console.log(even_digits(1020));
+  console.log(even_digits(102));
 
 
 // <--------------------------------------------7th QUESTION-------------------------------------------->
 
-let rev = 0;
-let num = 167;
-let lastDigit;
+// let rev = 0;
+// let num = 167;
+// let lastDigit;
 
 
-while(num != 0){
-	lastDigit = num % 10;
-  rev = rev * 10 + lastDigit;
-  num = Math.floor(num/10);
+// while(num != 0){
+// 	lastDigit = num % 10;
+//   rev = rev * 10 + lastDigit;
+//   num = Math.floor(num/10);
   
-}
-if(rev===num){
-    console.log("yes")
-}
-else{
-    console.log("no")
-}
-console.log("Reverse number : "+rev);
+// }
+// if(rev===num){
+//     console.log("yes")
+// }
+// else{
+//     console.log("no")
+// }
+// console.log("Reverse number : "+rev);
